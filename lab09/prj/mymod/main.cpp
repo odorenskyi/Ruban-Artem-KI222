@@ -93,22 +93,24 @@ void temperature(void){
 void number()
 {
 
-    unsigned short n;
+    unsigned int n;
     cout << "Введiть число вiд 0 до 65535 : ";
     cin >> n;
-
     int count = 0;
-    if ((n & 1) == 0) {
-        while ((n & 1) == 0) {
-            count++;
-            n >>= 1;
-        }
-    cout<<"Кiлькiсть бiнарних нулiв : "<<count<<endl;
-    } else {
-        while ((n & 1) == 1) {
-            count++;
-            n >>= 1;
-        }
-     cout<<"Кiлькiсть бiнарних одиниць : "<<count<<endl;
+    if (n<0 && n>65535){
+        cout<<"Помилка"<<endl;
+        else if ((n & 1) == 0) {
+                while ((n & 1) == 0) {
+                    count++;
+                    n >>= 1;
+                    }
+                cout<<"Кiлькiсть бiнарних нулiв : "<<count<<endl;
+            }
+        else {
+                    while ((n & 1) == 1) {
+                    count++;
+                    n >>= 1;
+                }
+                cout<<"Кiлькiсть бiнарних одиниць : "<<count<<endl;
+            }
     }
-}
