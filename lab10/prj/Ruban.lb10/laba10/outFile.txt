@@ -1,0 +1,17 @@
+Name : Artem
+Institution : CNTU
+City : Kropyvnytskyi
+Country : Ukraine
+Year of development : 2023
+Ukrainian alphabet - A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+                     a b c d e f g h i j k l m n o p q r s t u v w x y z 
+
+No errors were found in line
+
+x = 75
+y = 34
+z = 343
+S = 1661.57
+
+Number : 43
+binary value : 00000000000000000000000000101011

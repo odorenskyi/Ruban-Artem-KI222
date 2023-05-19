@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1684531848 source:c:\users\user\onedrive\Рабочий стол\Учоба\БМТП\Практика\Нова папка\ruban-artem-ki222\lab10\prj\ruban.lb10\laba10\main.cpp
+	<iostream>
+	<fstream>
+	<ModulesRuban.h>
+	<ctime>
+	<bitset>
+	<string>
+
